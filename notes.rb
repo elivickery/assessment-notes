@@ -68,10 +68,18 @@ http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/
 
 # ---------------------------------- #
 ## Associations
-* When you have a differently named association:
+* Always start with the join table - only has belongs_to associations.
+* Then set up the has_many associations (in the other tables) that go with the belongs_to associations in the join table.
+* When you have a differently named association, specify the foreign key:
   has_many :purchases, foreign_key: "purchaser_id"
+* "Through" is in the same table as you are writing.
+* "Source" is in the table you reference in "through".
+
 
 # ---------------------------------- #
 ## Time tests
 OOJS (Bikes and Stations): 16 mins
 OOJS (Gardens): 22 mins
+
+Associations (At the Races): 10 mins
+Associations (Shirts): 15 mins
