@@ -62,6 +62,11 @@ post '/posts/:id/vote' do
   end
 end
 
+# ---------------------------------- #
+## OOJS
+http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/
+
+
 ## Time tests
 OOJS (Bikes and Stations): 16 mins
 OOJS (Gardens): 22 mins
