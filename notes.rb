@@ -66,7 +66,12 @@ end
 ## OOJS
 http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/
 
+# ---------------------------------- #
+## Associations
+* When you have a differently named association:
+  has_many :purchases, foreign_key: "purchaser_id"
 
+# ---------------------------------- #
 ## Time tests
 OOJS (Bikes and Stations): 16 mins
 OOJS (Gardens): 22 mins
