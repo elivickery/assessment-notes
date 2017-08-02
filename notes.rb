@@ -74,7 +74,12 @@ http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/
   has_many :purchases, foreign_key: "purchaser_id"
 * "Through" is in the same table as you are writing.
 * "Source" is in the table you reference in "through".
+http://guides.rubyonrails.org/association_basics.html
 
+
+## Validations
+http://guides.rubyonrails.org/active_record_validations.html
+* Validations are done in the model
 
 # ---------------------------------- #
 ## Time tests
@@ -83,3 +88,5 @@ OOJS (Gardens): 22 mins
 
 Associations (At the Races): 10 mins
 Associations (Shirts): 15 mins
+
+Validations (Dogs and Judges): 15 mins
